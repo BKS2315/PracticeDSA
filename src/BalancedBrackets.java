@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class BalancedBrackets {
@@ -22,9 +24,11 @@ class Result {
         }else{
             return '[';
         }
+
     }
 
     public static String isBalanced(String s) {
+
         // Write your code here
         Stack<Character> stk = new Stack<Character>();
 
